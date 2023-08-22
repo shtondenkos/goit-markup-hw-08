@@ -1,0 +1,56 @@
+
+
+
+
+
+.teamcard__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    gap: 10px;
+
+}
+
+.teamcard__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: (var(--color-withlight));
+    border-radius: 50%;
+    max-width: 100%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.teamcard__link:hover,
+.teamcard__link:focus {
+    background-color: #2196F3;
+
+}
+
+.teamcard__link:focus {
+    fill: #FFFFFF;
+}
+
+.teamcard__link:hover .teamcard__svg {
+    fill: var(--color-withlight);
+
+}
+
+.teamcard__link:focus .teamcard__svg {
+    fill: var(--color-withlight);
+
+}
+
+.teamcard__svg {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}

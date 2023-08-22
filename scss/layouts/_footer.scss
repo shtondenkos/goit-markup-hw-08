@@ -1,0 +1,104 @@
+/***** foooter *****/
+
+.footer {
+    background-color: var(--color-footer-background);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer__link {
+    display: block;
+    font-size: 14px;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--color-withlight);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__address {
+    margin-top: 20px;
+}
+
+.footer__mail,
+.footer__tel {
+    display: block;
+    font-size: 14px;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.71;
+    margin-top: 12px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__address:hover,
+.footer__address:focus,
+.footer__mail:hover,
+.footer__mail:focus,
+.footer__tel:hover,
+.footer__tel:focus,
+.footer__link:hover,
+.footer__link:focus {
+    color: #2196F3;
+    cursor: pointer;
+}
+
+.footer>.conteiner {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-sociable {
+    margin-left: 70px;
+}
+
+.footer-sociable__text {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #EEEEEE;
+}
+
+.footer-sociable__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    padding: 0;
+    gap: 10px;
+}
+
+.footer-thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--color-secondary);
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-thumb:hover,
+.footer-thumb:focus {
+    background-color: var(--color-buttons-hover);
+}
+
+.footer-thumb__link {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.footer-thumb__svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--color-withlight);
+}

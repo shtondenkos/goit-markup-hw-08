@@ -1,0 +1,21 @@
+/**** logo ****/
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    font-style: normal;
+    line-height: 1.19;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.logo__header {
+    color: var(--color-brand);
+}
+
+.logo__footer {
+    color: var(--color-withlight);
+    margin-right: 70px;
+}

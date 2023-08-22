@@ -1,0 +1,47 @@
+/**** about ****/
+.about {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.about__text {
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--color-primery);
+    margin-bottom: 50px;
+}
+
+.about__list {
+    display: flex;
+    padding-left: 0;
+    gap: 30px;
+}
+
+.about__image {
+    position: relative;
+    display: block;
+    flex-basis: calc((100% - 2*30px)/3);
+}
+
+.about__label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.about__label-text {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.03em;
+    text-align: center;
+    white-space: nowrap;
+    color: #FFFFFF;
+    padding: 27px 107px 27px 107px;
+}

@@ -1,0 +1,50 @@
+/****** features ******/
+
+.our-features {
+    padding-top: 94px;
+}
+
+.feature {
+    display: flex;
+    gap: 30px;
+    padding-left: 0;
+}
+
+.feature li {
+    width: 270px;
+    padding-left: 0;
+    text-decoration: none;
+}
+
+.feature__label {
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: 0.03em;
+    color: var(--color-primery);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.feature__text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--color-secondary);
+}
+
+.feature__icon {
+    width: 70px;
+    height: 70px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.feature__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+
+}

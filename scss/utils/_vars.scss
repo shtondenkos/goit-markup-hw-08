@@ -1,0 +1,19 @@
+ :root {
+     --color-body: #ffff;
+     --color-borders-card: #EEEEEE;
+     --color-primery: #212121;
+     --color-secondary: #757575;
+     --color-brand: #000000;
+     --color-firstlight: #F4F4FD;
+     --color-secondlight: #E7E9FC;
+     --color-withlight: #ffff;
+     --color-buttons-hover: #2196F3;
+     --color-border: #ECECEC;
+     --color-buttons: #212121;
+     --color-buttons-background: #F5F4FA;
+     --color-footer-background: #2F303A;
+     --card-set-gap: 30px;
+ }
+ .current {
+     color: var(--color-pressed);
+ }

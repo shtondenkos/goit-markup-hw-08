@@ -1,0 +1,108 @@
+/***** header *****/
+
+.header {
+    border-bottom: 1px solid var(--color-border);
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation__title {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    margin-left: 93px;
+    gap: 50px;
+}
+
+.navigation__link {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    color: var(--color-primery);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navigation__link:hover,
+.navigation__link:focus {
+    color: var(--color-buttons-hover);
+}
+
+
+.active {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    letter-spacing: 0.02em;
+    color: var(--color-buttons-hover)
+}
+
+.active::after {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: currentColor;
+    border-radius: 2px;
+    content: '';
+}
+
+
+.contacts__mail,
+.contacts__tel {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.21;
+    letter-spacing: 0.02em;
+    color: var(--color-secondary);
+    font-style: normal;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-left: 0;
+    text-align: center;
+    gap: 50px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts a:hover,
+.contacts a:focus {
+    color: #2196F3;
+    cursor: pointer;
+}
+
+.contacts__mail--letter {
+    width: 16px;
+    height: 12px;
+    margin-left: auto;
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.contacts__tel--smartphone {
+    width: 10px;
+    height: 16px;
+    margin-left: auto;
+    margin-right: 10px;
+    fill: currentColor;
+}
