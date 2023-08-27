@@ -47,4 +47,8 @@
     background-color: #F5F4FA;
     border-radius: 4px;
 
+    @media screen and (max-width: 480px) {
+            display: none;
+        }
+
 }
