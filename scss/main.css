@@ -375,6 +375,11 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+@media screen and (min-width: 768px) {
+  .about {
+    display: none;
+  }
+}
 
 .about__text {
   font-size: 36px;
