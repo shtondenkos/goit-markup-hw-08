@@ -3,9 +3,9 @@
 .header {
     border-bottom: 1px solid var(--color-border);
 
-    @media screen and (max-width: 767px) {
-        width: 100%;
+    @media screen and (max-width: 480px) {
         height: 60px;
+        margin: 0 auto;
         
     }
 }
@@ -41,6 +41,11 @@
 
     color: var(--color-primery);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (max-width: 767px) {
+            display: none;
+    
+        }
 }
 
 .navigation__link:hover,

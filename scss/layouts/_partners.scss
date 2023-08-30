@@ -5,6 +5,11 @@
     display: flex;
     padding: 94px 0;
 
+    @media screen and (max-width: 767px) {
+        padding-top: 60px; 
+    
+    }
+
 }
 
 .partners__text {
@@ -20,6 +25,13 @@
     display: flex;
     padding-left: 0;
     gap: 30px;
+
+    @media screen and (max-width: 767px) {
+        display: block;
+        width: calc((100% - 2 * 10px) / 2);
+        margin: 5px;
+        
+    }
 }
 
 .clients__link:hover,
@@ -45,6 +57,7 @@
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .clients__logo {

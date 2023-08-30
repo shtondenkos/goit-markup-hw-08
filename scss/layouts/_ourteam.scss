@@ -14,6 +14,12 @@
     margin-bottom: 50px;
     text-align: center;
     color: var(--color-primery);
+
+    @media screen and (max-width: 767px) {
+        font-size: 28px;
+        line-height: 1.17;
+        
+    }
 }
 
 .teamcard {
@@ -21,12 +27,18 @@
     gap: 30px;
     justify-content: center;
     padding-left: 0;
+
+    @media screen and (max-width: 767px) {
+        display: block;
+    
+        }
 }
 
 .teamcard__foto {
     flex-basis: calc((100% - 3 * 30px)/4);
     border-radius: 0px 0px 4px 4px;
     display: block;
+
 }
 
 .teamcard__title {
@@ -38,6 +50,11 @@
     box-shadow: 0px 1px 3px 0px #0000001F;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
+
+    @media screen and (max-width: 767px) {
+        margin-bottom: 30px;
+        
+    }
 }
 
 .teamcard__name {
