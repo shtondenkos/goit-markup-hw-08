@@ -12,6 +12,7 @@
     color: var(--color-withlight);
     background-color: var(--color-footer-background);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Header\ Img\ copy.jpg);
+
 }
 
 .hero__main-title {
@@ -25,7 +26,13 @@
     text-transform: uppercase;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    color: var(--color-body)
+    color: var(--color-body);
+        
+    @media screen and (max-width: 767px) {
+        font-size: 26px;
+        line-height: 1.61;
+        
+    }
 }
 
 .hero__btn {

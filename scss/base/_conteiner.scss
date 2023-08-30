@@ -21,4 +21,8 @@
 .header-conteiner {
     display: flex;
     align-items: center;
+
+    @media screen and (min-width: 480px) {
+            width: 480px;
+        }
 }

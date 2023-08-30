@@ -2,18 +2,41 @@
 
 .our-features {
     padding-top: 94px;
+
+
+    @media screen and (max-width: 767px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        
+        
+    }
+
+
 }
+
 
 .feature {
     display: flex;
     gap: 30px;
     padding-left: 0;
+
+    @media screen and (max-width: 767px) {
+        display: block;
+
+        }
+
 }
 
 .feature li {
     width: 270px;
     padding-left: 0;
     text-decoration: none;
+
+    @media screen and (max-width: 767px) {
+        margin: 0px;
+    
+        }
+
 }
 
 .feature__label {
@@ -47,8 +70,10 @@
     background-color: #F5F4FA;
     border-radius: 4px;
 
-    @media screen and (max-width: 480px) {
-            display: none;
-        }
+    @media screen and (max-width: 767px) {
+        margin: 0px;
+        
+    }
+
 
 }
