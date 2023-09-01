@@ -796,6 +796,12 @@ img {
   text-align: center;
   color: var(--color-primery);
 }
+@media screen and (max-width: 767px) {
+  .partners__text {
+    font-size: 28px;
+    line-height: 1.17;
+  }
+}
 
 .clients {
   display: -webkit-box;
@@ -806,9 +812,20 @@ img {
 }
 @media screen and (max-width: 767px) {
   .clients {
-    display: block;
-    width: calc((100% - 20px) / 2);
-    margin: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 0px;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .clients__item {
+    margin: 15px;
+    padding-left: 0px;
   }
 }
 

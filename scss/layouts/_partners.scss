@@ -19,6 +19,12 @@
     margin-bottom: 50px;
     text-align: center;
     color: var(--color-primery);
+
+    @media screen and (max-width: 767px) {
+        font-size: 28px;
+        line-height: 1.17;
+    
+    }
 }
 
 .clients {
@@ -27,10 +33,18 @@
     gap: 30px;
 
     @media screen and (max-width: 767px) {
-        display: block;
-        width: calc((100% - 2 * 10px) / 2);
-        margin: 5px;
-        
+        display: flex;
+        flex-wrap:wrap;
+        gap: 0px;
+        padding-left: 0;
+    }
+}
+.clients__item {
+    @media screen and (max-width: 767px) {
+        margin: 15px;
+        padding-left: 0px;
+
+      
     }
 }
 
