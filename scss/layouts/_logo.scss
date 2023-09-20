@@ -10,6 +10,13 @@
     letter-spacing: 0.03em;
     color: #2196F3;
 
+    @media (max-width: 767px) {
+            text-align: center;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+
 }
 
 .logo__header {
@@ -19,4 +26,11 @@
 .logo__footer {
     color: var(--color-withlight);
     margin-right: 70px;
-}
+
+    @media (max-width: 767px) { 
+                text-align: center;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+            }
+        }
